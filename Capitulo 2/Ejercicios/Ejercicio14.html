@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<!-- Ejercicio 14 -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 14</title>
+    </head>
+    
+    <body>
+        <a href="../Indices/IndiceC2.html">Ir a la página principal</a>
+        <hr>
+
+        <h2>Formulario de Retroalimentación de Visita al Campus</h2>
+
+        <form method="post" action="http://www.deitel.com">
+        
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </p>
+
+            <p>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </p>
+
+            <p>¿Qué fue lo que más le gustó sobre el campus? (Puede seleccionar varias):<br>
+                <input type="checkbox" id="campus" name="gustos" value="campus">
+                <label for="campus">Campus</label><br>
+            
+                <input type="checkbox" id="estudiantes" name="gustos" value="estudiantes">
+                <label for="estudiantes">Estudiantes</label><br>
+            
+                <input type="checkbox" id="ubicacion" name="gustos" value="ubicacion">
+                <label for="ubicacion">Ubicación</label><br>
+            
+                <input type="checkbox" id="ambiente" name="gustos" value="ambiente">
+                <label for="ambiente">Ambiente</label><br>
+            
+                <input type="checkbox" id="dormitorios" name="gustos" value="dormitorios">
+                <label for="dormitorios">Dormitorios</label><br>
+            
+                <input type="checkbox" id="deportes" name="gustos" value="deportes">
+                <label for="deportes">Deportes</label>
+            </p>
+
+            <p>¿Cómo supo sobre la universidad?:<br>
+                <input type="radio" id="amigos" name="referencia" value="amigos">
+                <label for="amigos">Amigos</label><br>
+            
+                <input type="radio" id="television" name="referencia" value="television">
+                <label for="television">Televisión</label><br>
+            
+                <input type="radio" id="internet" name="referencia" value="internet">
+                <label for="internet">Internet</label><br>
+            
+                <input type="radio" id="otro" name="referencia" value="otro">
+                <label for="otro">Otro</label>
+            </p>
+
+            <p>
+                <label for="comentarios">Comentarios adicionales:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="5" cols="50"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Restablecer">
+            </p>
+
+        </form>
+    </body>
+</html>
